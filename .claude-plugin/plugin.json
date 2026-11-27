@@ -1,0 +1,19 @@
+{
+  "name": "spring-boot-metrics-lighthouse",
+  "version": "0.1.0",
+  "description": "把 Spring Boot 微服务的运行指标接入 Prometheus 并在 Grafana 做出可读面板：actuator 端点、micrometer 依赖、ServiceMonitor 采集、dashboard 生成与逐条验收。含 25 条实测坑。",
+  "author": {
+    "name": "spring-boot-metrics-lighthouse contributors"
+  },
+  "license": "MIT",
+  "keywords": [
+    "spring-boot",
+    "micrometer",
+    "prometheus",
+    "grafana",
+    "servicemonitor",
+    "kubernetes",
+    "observability",
+    "metrics"
+  ]
+}
