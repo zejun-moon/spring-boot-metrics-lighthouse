@@ -1,0 +1,29 @@
+{
+  "name": "spring-boot-metrics-lighthouse",
+  "owner": {
+    "name": "spring-boot-metrics-lighthouse contributors"
+  },
+  "metadata": {
+    "description": "Spring Boot 微服务指标接入 Prometheus + Grafana 的实战技能包",
+    "version": "0.1.0"
+  },
+  "plugins": [
+    {
+      "name": "spring-boot-metrics-lighthouse",
+      "source": "./",
+      "version": "0.1.0",
+      "description": "Spring Boot 微服务指标接入 Prometheus + Grafana：actuator → micrometer → ServiceMonitor → dashboard 全链路，含 25 条实测坑与 4 个可执行校验脚本。",
+      "author": {
+        "name": "spring-boot-metrics-lighthouse contributors"
+      },
+      "license": "MIT",
+      "keywords": [
+        "spring-boot",
+        "prometheus",
+        "grafana",
+        "kubernetes",
+        "observability"
+      ]
+    }
+  ]
+}
