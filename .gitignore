@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# 编辑器 / 系统
+.DS_Store
+*.swp
+*.swo
+.idea/
+.vscode/
+
+# 日志
+*.log
+
+# 生成产物（dashboard 由生成器产出，不入库）
+dashboard*.json
+*.import.json
+
+# 凭据 —— 绝不入库
+*.key
+*.pem
+*.p12
+*.pfx
+.env
+.env.*
+!.env.example
+secrets/
+credentials/
